@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Mundinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <h1>❤️ Galeria Especial ❤️</h1>
+    </header>
+
+    <main>
+        <div class="gallery">
+            <div class="card">
+                <img src="foto1.jpg" alt="Foto 1">
+                <p>Nosso primeiro encontro</p>
+            </div>
+            <div class="card">
+                <img src="foto2.jpg" alt="Foto 2">
+                <p>Viagem inesquecível</p>
+            </div>
+            <div class="card">
+                <img src="foto3.jpg" alt="Foto 3">
+                <p>Meu amorzinho</p>
+            </div>
+            <div class="card">
+                <img src="foto4.jpg" alt="Foto 4">
+                <p>Minha vida</p>
+            </div>
+            <div class="card">
+                <img src="foto5.jpg" alt="Foto 5">
+                <p>O amor da vida dela</p>
+            </div>
+        </div>
+    </main>
+
+    <audio id="music" autoplay loop muted>
+        <source src="musica-romantica2.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.   
+    </audio>
+
+    <!-- Emoji de som para controlar a música -->
+    <div id="soundControl" class="sound-control">
+        🎵
+    </div>
+
+    <footer>
+        <a href="carta.html" class="heart-btn">❤️</a>
+    </footer>
+
+    <!-- Modal para exibir a imagem ampliada -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
